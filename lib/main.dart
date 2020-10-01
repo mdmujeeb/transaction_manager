@@ -1,4 +1,4 @@
-// import 'dart:io';
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 // import 'package:flutter/services.dart';
@@ -7,7 +7,7 @@ import './widgets/transaction_list.dart';
 import './widgets/new_transaction.dart';
 import './models/transaction.dart';
 
-bool _isIOS = true; //Platform.isIOS;
+bool _isIOS = Platform.isIOS;
 
 void main() {
   // WidgetsFlutterBinding.ensureInitialized();

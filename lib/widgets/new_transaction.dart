@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:intl/intl.dart';
+import 'dart:io';
+
 import '../models/transaction.dart';
 
-final _isIOS = true;
+final _isIOS = Platform.isIOS;
 
 class NewTransaction extends StatefulWidget {
   final Function addTransaction;
